@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/524.58670ea1.chunk.js","mappings":"oJAEe,SAASA,IACtB,OACEC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,UAET,C","sources":["pages/protected/MyBets.tsx"],"sourcesContent":["import React from 'react'\n\nexport default function MyBets() {\n  return (\n    <div>MyBets</div>\n  )\n}\n"],"names":["MyBets","_jsx","children"],"sourceRoot":""}

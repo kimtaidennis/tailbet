@@ -1,0 +1,2 @@
+(()=>{"use strict";const e=s=>1===s?0:2===s?1:e(s-1)+e(s-2);self.onmessage=s=>{const{num:t}=s.data,a=(new Date).getTime(),m={fibNum:e(t),time:(new Date).getTime()-a};self.postMessage(m)}})();
+//# sourceMappingURL=309.0a8aea99.chunk.js.map
