@@ -53,7 +53,7 @@ export default function Jackpot() {
                 <div className="main-home mb-5 lg:w-fit sm:w-full md:w-full">
 
                     {/* ---Carousel--- */}
-                    <img src="/images/image3.png" alt="Home" className="w-full md:rounded-md"/>
+                    <img src={ process.env.PUBLIC_URL + "/images/image3.png"} alt="Home" className="w-full md:rounded-md"/>
                     
                     {/* Auto Select */}
                     <div className="md:py-2.5 text-right p-2 md:px-0 dashed-border ">

@@ -32,7 +32,7 @@ export default function Header() {
   return (
     <header className=" px-3 py-4 lg:px-3 lg:py-5">
         <div className="flex justify-between items-center py-2">
-          <img src="/images/logo.png" alt="Logo" className="h-4" onClick={ () => navigate('/') }/>
+          <img src= { process.env.PUBLIC_URL + "/images/logo.png"} alt="Logo" className="h-4" onClick={ () => navigate('/') }/>
 
             { !token && 
                 <ul className="flex items-center mb-0">
