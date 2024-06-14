@@ -11,7 +11,7 @@ export default function AuthLayout() {
 
                 <div className=" w-full px-4 mx-auto lg:w-2/3">
                     <NavLink to="/" className="home-link text-center">
-                        <img src="/images/logo.png" alt="" className="h-8" />
+                        <img src="./images/logo.png" alt="" className="h-8" />
                     </NavLink>
                     <Outlet/>
                 </div>

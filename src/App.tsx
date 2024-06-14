@@ -1,6 +1,6 @@
 import './assets/css/icofont.css';
 import { Suspense, lazy } from 'react';
-import { Route, RouterProvider, createBrowserRouter,createRoutesFromElements } from "react-router-dom";
+import { Route, RouterProvider, createHashRouter,createRoutesFromElements } from "react-router-dom";
 import { store } from './redux/store';
 import { Provider } from 'react-redux';
 import { ProtectedRoute } from 'routes/ProtectedRoute';
@@ -29,7 +29,7 @@ const Workers = lazy(() => import("pages/public/WorkerTest"));
 
 
 const App = () => {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     createRoutesFromElements(
       <Route  path='/'  >
         {/* Public Pages */}
